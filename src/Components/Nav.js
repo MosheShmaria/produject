@@ -22,8 +22,8 @@ render() {
             <Link to="/" ><li>דף הבית</li> </Link>
             <Link to="/about" ><li>אודות</li> </Link>
             <li className="summary">
-            <details >
-<summary onClick={this.hendleNav}>קטגוריות </summary>
+            <div >
+<div onClick={this.hendleNav}>קטגוריות </div>
 { this.state.Active ?
   <div className="list" onClick={this.hendleNav}>
   <li> <Link to="/products/הכל" >הכל</Link></li>
@@ -34,7 +34,7 @@ render() {
   <li> <Link to="/products/מטבחי חוץ" >מטבחי חוץ</Link></li>
   <li> <Link to="/products/אביזרים" >אביזרים</Link></li>
   </div>  : null} 
-</details>
+</div>
 </li>
 
          
