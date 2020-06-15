@@ -63,7 +63,7 @@ export default class Category extends Component {
         />
        
      })
-     
+
      
   
      const i= this.props.match.params.category;
@@ -81,9 +81,9 @@ export default class Category extends Component {
     </div>      
                {loading ? <Loading />: (  
  i==="כל הקטגרויות"?  Products:
+ i==="אביזרים"?  Accessories:
  i==="גריל גז"?  GasGrill : 
  i==="מעשנות"? Smoking:
- i==="אביזרים"?  Accessories:
  i==="גריל פחמים"?  CharcoalGrill:
  i==="מטבחי חוץ"?  Kitchens:
  i==="טאבונים"?  Taboons:

@@ -861,9 +861,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"kitchens",   
-sys:{
+
 id:"51"
-},
+,
 fileds:{
 name:"מטבח חוץ" ,
   price:"999.00",

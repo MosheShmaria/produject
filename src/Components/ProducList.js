@@ -14,7 +14,7 @@ export default function NavBlog({product}) {
 
 <div className='productName'>{name}</div>
 <div className='productPrice'><label></label>{price}₪</div> 
-        <Link to={`/apartment/${slug}`}>פרטים</Link>
+        <Link to={`/products/:id${slug}`}>פרטים</Link>
       </div>
     )
 }

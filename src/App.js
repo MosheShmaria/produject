@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import Header from './Components/Header';
 import Home from "./Pages/Home"
 import Category from "./Pages/Category"
+import Product from "./Pages/Product"
 import Contect from "./Pages/Contect"
 import Blog from "./Pages/Blog"
 import  About from "./Pages/About"
@@ -16,6 +17,7 @@ function App() {
     <Switch>
       <Route exact path='/'  component={Home} />
       <Route exact  path='/products/:category' component={Category} />
+      <Route exact  path='/product/:id' component={Product} />
       <Route exact path='/contect'  component={Contect} />
       <Route exact path='/blog'  component={Blog} />
       <Route exact path='/about'  component={About} />

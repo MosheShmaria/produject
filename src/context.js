@@ -13,41 +13,27 @@ const ProductsContext = React.createContext();
         loading:true
     }
     componentDidMount(){
-        // console.log(items);
-       
+
         let  products = this.formatData(items);
-        // console.log(products);
-     
-        let smoking0 = items.filter(product => product.category === "smoking")
-        let  smoking = this.formatData(smoking0);
-        console.log(smoking);
-
-        let gasGrill0 =  items.filter(product => product.category === "gasGrill")
-        let  gasGrill = this.formatData(gasGrill0);
-        console.log(gasGrill);
-
-
-        let taboons0 =  items.filter(product => product.category === "taboons")
-        let  taboons = this.formatData(taboons0);
-        console.log(taboons);
-
-
-
-        let kitchens0 =  items.filter(product => product.category === "kitchens")
-        let  kitchens= this.formatData(kitchens0);
-        console.log(kitchens);
-
-       
-        let charcoalGrill0 =  items.filter(product => product.category === "charcoalGrill")
-        let  charcoalGrill= this.formatData(charcoalGrill0);
-        console.log(charcoalGrill);
-
-        let accessories0 =  items.filter(product => product.category === "accessories")
-        let  accessories= this.formatData(accessories0);
-        console.log(accessories);
         
- 
-        // 2:04
+        let smoking0 = this.filter("smoking");
+        let  smoking = this.formatData(smoking0);
+
+        let gasGrill0 = this.filter("gasGrill")
+        let  gasGrill = this.formatData(gasGrill0);
+
+        let taboons0 = this.filter("taboons")
+        let  taboons = this.formatData(taboons0);
+
+        let kitchens0 = this.filter("kitchens")
+        let  kitchens= this.formatData(kitchens0);
+
+        let charcoalGrill0 =  this.filter("charcoalGrill")
+        let  charcoalGrill= this.formatData(charcoalGrill0);
+        
+        let accessories0 =  this.filter("accessories")
+        let  accessories= this.formatData(accessories0);
+     
         this.setState({
             products,
             smoking,
@@ -59,29 +45,23 @@ const ProductsContext = React.createContext();
             loading : false
         }
         )
-        //   console.log(apartments);
     }
-    
+    filter (cetegory){
+        let filterItems =  items.filter(product => product.category === cetegory)
+        return filterItems;
+    }
     formatData(items){
         let tempItems = items.map(item => {
             // let id = item.sys.id;
 
-            let id = item.sys.id;
+            let id = item.id;
             let images = item.images;
             let product= {...item.fileds,images,id}
-                // ,id
-            
-            // console.log(product);
-            
             return product;
-      
-            
         })
         return tempItems;
-    
-
     }
-    
+   
     render() {
         return (
          <ProductsContext.Provider value={{...this.state}}>
