@@ -292,6 +292,43 @@ border-radius: 10px;
 .productPrice{
     font-size: 22px;
 }
+ /*##################### Sproduct #######################*/
+ .Sproduct{
+    display: inline-block;
+   font-size: 50px;
+    margin: 27px;
+
+    overflow: hidden;
+    border:2px solid red;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 0, 0.562);
+    height: 620px;
+    width: 80%;
+ }
+
+
+
+.SproudctImage{
+width: 500px;
+height: 500px;
+margin-top:60px;
+border-radius: 10px;
+float: right;
+margin-right: 60px;
+
+}
+
+.SproductName{
+    font-size: 90px;
+text-align: center;
+margin-top: 30px;
+}
+
+.SproductPrice{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 90px;
+}
 .contect{
     background-color: beige;
     border:3px solid seagreen;

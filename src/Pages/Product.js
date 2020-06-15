@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import  {ProductsContext} from "../context"
-import ProductList  from '../Components/ProducList'
+import SingleProduct from '../Components/SingleProduct'
 export default class Product extends Component {
     static contextType =ProductsContext;
     render() {
         let { products } =this.context;
-        
+        console.log(products);
     //    this.formatData=(products)=>{
     //         let tempItems = products.map(item => {
     //             // let id = item.sys.id;
@@ -18,18 +18,25 @@ export default class Product extends Component {
     //     let  productss = this.formatData(products);
 
            const i= this.props.match.params.id;
-           
-console.log(products);
+           if(!products){
+               return(
+                   <h1>Error</h1>
+               )
+           };
 
+if(products){
            let productss = products.filter(product => product.id === i)
            
 
             const  productsss =  productss.map(product => {
-                return <ProductList key={product.id } product={product} 
+                return <SingleProduct key={product.id } product={product} 
                 
                 />
                
              })
+            
+            
+
         return (
             <div>
          
@@ -38,4 +45,5 @@ console.log(products);
             </div>
         )
     }
+}
 }

@@ -5,9 +5,6 @@ import Loading from '../Components/Loading'
 import { Link } from "react-router-dom";
 export default class Category extends Component {
   static contextType =ProductsContext;
-
-
-
    render() {
       let { loading,
          products ,
@@ -18,12 +15,12 @@ export default class Category extends Component {
          taboons,
          kitchens,
         } =this.context;
-    //  const o= products;
-    //   console.log(o);
+  console.log(products);
+  
       
      const Products = products.map(product => {
         return <ProductList key={product.id } product={product} 
-        
+      
         />
        
      })
@@ -67,7 +64,7 @@ export default class Category extends Component {
      
   
      const i= this.props.match.params.category;
-      
+   
         return (
           <div className="product-list" >
               <div className="nav-left">

@@ -2,9 +2,9 @@ export const defaultImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd
 export default [
   {
     category:"gasGrill",   
-sys:{
+
 id:"10"
-},
+,
 fileds:{
   name:"גריל גז אופק 4B" ,
     price:"999.00",
@@ -29,9 +29,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
   ,
   {
     category:"gasGrill",   
-sys:{
+
 id:"11"
-},
+,
 fileds:{
   name:"גריל גז ברקת5B" ,
     price:"2000.00",
@@ -58,9 +58,9 @@ images:["data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEhASEA8P
   ,
   {
     category:"gasGrill",   
-sys:{
+
 id:"12"
-},
+,
 fileds:{
   name:"גריל גז GRANDHALL" ,
     price:"6,173",
@@ -87,9 +87,9 @@ images:["data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUQEhIV
   ,
   {
     category:"gasGrill",   
-sys:{
+
 id:"13"
-},
+,
 fileds:{
   name:"גריל גז Genesis II E410IL" ,
     price:"5,999.00",
@@ -117,9 +117,9 @@ images:["https://www.weber.co.il/wp-content/uploads/2018/01/propane-grills-62050
 
     {
       category:"gasGrill",   
-sys:{
+
 id:"14"
-},
+,
 fileds:{
     name:"גריל גז מקצועי 3 מבערים דגם SUN3BIR" ,
       price:"9,360",
@@ -146,9 +146,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
     ,
   {
     category:"gasGrill",   
-sys:{
-id:"10"
-},
+
+id:"15"
+,
 fileds:{
   name:"גריל גז אופק 4B" ,
     price:"999.00",
@@ -175,9 +175,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
   ,
   {
     category:"gasGrill",   
-sys:{
-id:"11"
-},
+
+id:"16"
+,
 fileds:{
   name:"גריל גז ברקת5B" ,
     price:"2000.00",
@@ -204,9 +204,9 @@ images:["data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEhASEA8P
   ,
   {
     category:"gasGrill",   
-sys:{
-id:"12"
-},
+
+id:"17"
+,
 fileds:{
   name:"גריל גז GRANDHALL" ,
     price:"6,173",
@@ -233,9 +233,9 @@ images:["data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUQEhIV
   ,
   {
     category:"gasGrill",   
-sys:{
-id:"13"
-},
+
+id:"18"
+,
 fileds:{
   name:"גריל גז Genesis II E410IL" ,
     price:"5,999.00",
@@ -263,9 +263,9 @@ images:["https://www.weber.co.il/wp-content/uploads/2018/01/propane-grills-62050
 
     {
       category:"gasGrill",   
-sys:{
-id:"14"
-},
+
+id:"19"
+,
 fileds:{
     name:"גריל גז מקצועי 3 מבערים דגם SUN3BIR" ,
       price:"9,360",
@@ -292,9 +292,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
     ,
     {
       category:"charcoalGrill",
-      sys:{
+
       id:"20"
-      },
+     ,
       
       fileds:{
           name: " גריל פחמים 580 tray" ,
@@ -321,9 +321,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
       },
       {
         category:"charcoalGrill",
-        sys:{
+      
         id:"21"
-        },
+        ,
         
         fileds:{
             name: "גריל פחמים חבית DETROIT" ,
@@ -350,9 +350,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
         },
         {
           category:"charcoalGrill",
-          sys:{
+       
           id:"22"
-          },
+          ,
           
           fileds:{
               name: "גריל פחמים נייד LEG" ,
@@ -379,9 +379,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
           },
           {
             category:"charcoalGrill",
-            sys:{
+        
             id:"23"
-            },
+            ,
             
             fileds:{
                 name: "  גריל פחמים מקצועי טורוס 2" ,
@@ -408,9 +408,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
             },
             {
               category:"charcoalGrill",
-              sys:{
-              id:"20"
-              },
+       
+              id:"24"
+              ,
               
               fileds:{
                   name: " גריל פחמים 580 tray" ,
@@ -437,9 +437,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
               },
               {
                 category:"charcoalGrill",
-                sys:{
-                id:"21"
-                },
+          
+                id:"25"
+                ,
                 
                 fileds:{
                     name: "גריל פחמים חבית DETROIT" ,
@@ -466,9 +466,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
                 },
                 {
                   category:"charcoalGrill",
-                  sys:{
-                  id:"22"
-                  },
+               
+                  id:"26"
+                  ,
                   
                   fileds:{
                       name: "גריל פחמים נייד LEG" ,
@@ -495,9 +495,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
                   },
                   {
                     category:"charcoalGrill",
-                    sys:{
-                    id:"23"
-                    },
+           
+                    id:"27"
+                    ,
                     
                     fileds:{
                         name: "  גריל פחמים מקצועי טורוס 2" ,
@@ -524,9 +524,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
                     },
     {
         category:"charcoalGrill",
-        sys:{
-        id:"24"
-        },
+
+        id:"28"
+        ,
         
         fileds:{
             name: "גריל פחמים" ,
@@ -553,9 +553,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
         },
         {
           category:"smoking",   
-    sys:{
+
     id:"30"
-    },
+    ,
     fileds:{
         name:"מעשנת" ,
           price:"999.00",
@@ -581,9 +581,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuLTHIHR6xyOZHR
     },
     {
       category:"smoking",   
-sys:{
+
 id:"31"
-},
+,
 fileds:{
     name:"מעשנת" ,
       price:"999.00",
@@ -609,9 +609,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"smoking",   
-sys:{
+
 id:"32"
-},
+,
 fileds:{
 name:"מעשנת" ,
   price:"999.00",
@@ -637,9 +637,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"smoking",   
-sys:{
+
 id:"33"
-},
+,
 fileds:{
 name:"מעשנת" ,
   price:"999.00",
@@ -665,9 +665,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"smoking",   
-sys:{
+
 id:"34"
-},
+,
 fileds:{
 name:"מעשנת" ,
   price:"999.00",
@@ -693,9 +693,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
     {
       category:"taboons",   
-sys:{
-id:"40"
-},
+
+  id:"40"
+,
 fileds:{
     name:"טאבונים" ,
       price:"999.00",
@@ -721,9 +721,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"taboons",   
-sys:{
+
 id:"41"
-},
+,
 fileds:{
 name:"טאבונים" ,
   price:"999.00",
@@ -749,9 +749,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"taboons",   
-sys:{
+
 id:"42"
-},
+,
 fileds:{
 name:"טאבונים" ,
   price:"999.00",
@@ -777,9 +777,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"taboons",   
-sys:{
+
 id:"43"
-},
+,
 fileds:{
 name:"טאבונים" ,
   price:"999.00",
@@ -805,9 +805,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"taboons",   
-sys:{
+
 id:"44"
-},
+,
 fileds:{
 name:"טאבונים" ,
   price:"999.00",
@@ -833,9 +833,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"kitchens",   
-sys:{
+
 id:"50"
-},
+,
 fileds:{
 name:"מטבח חוץ" ,
   price:"999.00",
@@ -889,9 +889,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"kitchens",   
-sys:{
+
 id:"52"
-},
+,
 fileds:{
 name:"מטבח חוץ" ,
   price:"999.00",
@@ -917,9 +917,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"kitchens",   
-sys:{
+
 id:"53"
-},
+,
 fileds:{
 name:"מטבח חוץ" ,
   price:"999.00",
@@ -945,9 +945,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"kitchens",   
-sys:{
+
 id:"54"
-},
+,
 fileds:{
 name:"מטבח חוץ" ,
   price:"999.00",
@@ -973,9 +973,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"accessories",   
-sys:{
+
 id:"60"
-},
+,
 fileds:{
 name:"אביזרים" ,
   price:"999.00",
@@ -1001,9 +1001,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"accessories",   
-sys:{
+
 id:"61"
-},
+,
 fileds:{
 name:"אביזרים" ,
   price:"999.00",
@@ -1029,9 +1029,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"accessories",   
-sys:{
+
 id:"62"
-},
+,
 fileds:{
 name:"אביזרים" ,
   price:"999.00",
@@ -1057,9 +1057,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"accessories",   
-sys:{
+
 id:"63"
-},
+,
 fileds:{
 name:"אביזרים" ,
   price:"999.00",
@@ -1085,9 +1085,9 @@ images:["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtpEbFaEjZmVF4
 },
 {
   category:"accessories",   
-sys:{
+
 id:"64"
-},
+,
 fileds:{
 name:"אביזרים" ,
   price:"999.00",

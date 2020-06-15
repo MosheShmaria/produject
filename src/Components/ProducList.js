@@ -1,11 +1,11 @@
 import React from 'react'
 
 import {Link} from "react-router-dom"
-export default function NavBlog({product}) {
+export default function ProductList({product}) {
 
-    let {images,slug,price,name} = product;
+    let {images,id,price,name} = product;
 
-// console.log(images);
+console.log(id);
     return (
         
       <div className='product' >
@@ -14,7 +14,7 @@ export default function NavBlog({product}) {
 
 <div className='productName'>{name}</div>
 <div className='productPrice'><label></label>{price}₪</div> 
-        <Link to={`/products/:id${slug}`}>פרטים</Link>
+        <Link to={`/product/${id}`}>פרטים</Link>
       </div>
     )
 }
